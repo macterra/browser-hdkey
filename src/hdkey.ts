@@ -4,6 +4,7 @@ import { ripemd160 } from "@noble/hashes/ripemd160";
 import * as secp256k1 from "bells-secp256k1";
 import { sha512 } from "@noble/hashes/sha512";
 import { hmac } from "@noble/hashes/hmac";
+import { Buffer } from 'buffer';
 
 const MASTER_SECRET = Buffer.from("Bitcoin seed", "utf8");
 const HARDENED_OFFSET = 0x80000000;
