@@ -1,13 +1,13 @@
 {
-  "name": "browser-hdkey",
-  "version": "0.1.7",
+  "name": "@mdip/browser-hdkey",
+  "version": "0.1.8",
   "description": "Bitcoin BIP32 hierarchical deterministic keys",
   "main": "lib/hdkey.js",
   "types": "lib/hdkey.d.ts",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cryptocoinjs/hdkey"
+    "url": "git://github.com/KeychainMDIP/browser-hdkey"
   },
   "license": "MIT",
   "keywords": [
@@ -20,9 +20,9 @@
     "crypto"
   ],
   "bugs": {
-    "url": "https://github.com/cryptocoinjs/hdkey/issues"
+    "url": "https://github.com/KeychainMDIP/browser-hdkey/issues"
   },
-  "homepage": "https://github.com/cryptocoinjs/hdkey",
+  "homepage": "https://github.com/KeychainMDIP/browser-hdkey",
   "files": [
     "./lib/hdkey.d.ts",
     "./lib/hdkey.js"
